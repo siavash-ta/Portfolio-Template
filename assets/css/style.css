@@ -8,8 +8,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
+
+/*---fonts---*/
+@font-face {
+  font-family: 'samim';
+  src: url('fonts/Samim.eot');
+  src: url('../fonts/BYekan.woff') format('woff');
+  url('../fonts/BYekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+/*--end fonts--*/
+
+ body{
+ font-family: 'byekan', Arial, sans-serif;
+ font-weight:normal;
   color: #272829;
 }
 
@@ -24,7 +37,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'byekan', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -63,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
@@ -86,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'byekan', sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
@@ -113,16 +126,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-right: 300px;
 }
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    right: -300px;
   }
 
   #main {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 /*--------------------------------------------------------------
@@ -166,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  left: 15px;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -189,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 .mobile-nav-active #header {
-  left: 0;
+  right: 0;
 }
 
 /*--------------------------------------------------------------
@@ -218,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -227,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'byekan', sans-serif;
 }
 #hero p span {
   color: #fff;
@@ -283,7 +296,7 @@ section {
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 .section-title p {
   margin-bottom: 0;
@@ -333,7 +346,7 @@ section {
   display: block;
   font-size: 44px;
   color: #149ddd;
-  float: left;
+  float: right;
   line-height: 0;
 }
 .facts .count-box span {
@@ -342,12 +355,12 @@ section {
   display: block;
   font-weight: 700;
   color: #050d18;
-  margin-left: 60px;
+  margin-right: 60px;
 }
 .facts .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  margin: 0 60px 0 0;
+  font-family: 'byekan', sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -357,7 +370,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'byekan', sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
@@ -365,7 +378,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -379,11 +392,11 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'byekan', sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
-  float: right;
+  float: left;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
@@ -408,9 +421,9 @@ section {
   color: #050d18;
 }
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 20px 20px 0px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-right: 2px solid #1f5297;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -418,7 +431,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'byekan', sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -431,7 +444,7 @@ section {
   margin-bottom: 10px;
 }
 .resume .resume-item ul {
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
@@ -445,7 +458,7 @@ section {
   width: 16px;
   height: 16px;
   border-radius: 50px;
-  left: -9px;
+  right: -9px;
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
@@ -600,7 +613,7 @@ section {
   margin-bottom: 20px;
 }
 .services .icon {
-  float: left;
+  float: right;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -623,7 +636,7 @@ section {
   color: #149ddd;
 }
 .services .title {
-  margin-left: 80px;
+  margin-right: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -635,7 +648,7 @@ section {
   color: #149ddd;
 }
 .services .description {
-  margin-left: 80px;
+  margin-right: 80px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -930,7 +943,7 @@ section {
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
