@@ -21,9 +21,10 @@
 /*--end fonts--*/
 
  body{
- font-family: 'samim', Arial, sans-serif;
+ font-family: 'samim' !important ;
  font-weight:normal;
   color: #272829;
+  
 }
 
 a {
