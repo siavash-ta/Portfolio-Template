@@ -21,9 +21,9 @@
 /*--end fonts--*/
 
  body{
- font-family: 'samim' !important;
+ font-family: 'samim' ,Arial, Helvetica, sans-serif;
  font-weight:normal;
-  color: #272829;
+ color: #272829;
   
 }
 
@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #main {
     margin-right: 0;
+    font-family: 'samim' !important;
   }
 }
 /*--------------------------------------------------------------
