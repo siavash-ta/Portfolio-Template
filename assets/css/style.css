@@ -11,17 +11,18 @@
 
 /*---fonts---*/
 @font-face {
-  font-family:Yekan ;
-  src: url('../../fonts/Yekan.eot');
-  src: url('../../fonts/Yekan.woff') format('woff'),
-       url('../../fonts/Yekan.ttf') format('truetype');
+  font-family:Vazir ;
+  src: url('../../fonts/Vazir.eot');
+  src: url('../../fonts/Vazir.woff') format('woff'),
+       url('../../fonts/Vazir.ttf') format('truetype'),
+       url('../../fonts/Vazir.woff2') format('woff2');
   font-weight: normal;
 }
 
 /*--end fonts--*/
 
  body{
- font-family: Yekan ,Arial, Helvetica, sans-serif;
+ font-family: Vazir ,Arial, Helvetica, sans-serif;
  font-weight:normal;
  color: #272829;
   
@@ -38,7 +39,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
@@ -242,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
 }
 #hero p span {
   color: #fff;
@@ -362,7 +363,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 60px 0 0;
-  font-family: Yekan , sans-serif;
+  font-family:Vazir , sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -372,7 +373,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
@@ -394,7 +395,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
@@ -433,7 +434,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: Yekan, sans-serif;
+  font-family: Vazir, sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
