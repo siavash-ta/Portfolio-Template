@@ -4,4 +4,4 @@
     <li>Changed font</li>
     <li>Made is suitable for Persian coontent</li>
   </ul>
-<a href ="https://mahlafdf.github.io/Portfolio">See the Project</a>
+<a href ="https://mahlafdf.github.io/Portfolio-Template/">See the Project</a>
